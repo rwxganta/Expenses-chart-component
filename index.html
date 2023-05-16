@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Balance</title>
+  
+  <title>Frontend Mentor | Expenses chart component</title>
+
+</head>
+<body>
+
+  <div class="container flow-content">
+    <div class="balance">
+      <div class="balance__content">
+        <h2 class="balance__title">My balance</h2>
+        <p class="balance__money">$921.48</p>
+      </div>
+      <img src="/images/logo.svg" alt="">
+    </div>
+
+    <div class="spendings">
+      <p class="spending__title">Spending - Last 7 days</p>
+      <div class="chart">
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='17.45'></span>
+          <span class="month">mon</span>
+        </div>
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='34.91'></span>
+          <span class="month">tue</span>
+        </div>
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='52.36'></span>
+          <span class="month">wed</span>
+        </div>
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='31.07'></span>
+          <span class="month">thu</span>
+        </div>
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='23.39'></span>
+          <span class="month">fri</span>
+        </div>
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='43.28'></span>
+          <span class="month">sat</span>
+        </div>
+        <div class="bar-wrapper">
+          <span class="bar" data-month-spending='25.48'></span>
+          <span class="month">sun</span>
+        </div>
+      </div> <!-- END chart -->
+
+      <div class="spending__month">
+        <div class="spending__month--total">
+          <p class='total__title'>Total this month</p>
+          <p class="total__price">$478.33</p>
+        </div>
+        <div class="spending__month--last-month">
+          <p class="last-month__title">from last month</p>
+          <p class="last-month__percentage">+2.4%</p>
+        </div>
+      </div>
+    </div> <!-- END spendings -->
+  </div>
+</body>
+</html>
